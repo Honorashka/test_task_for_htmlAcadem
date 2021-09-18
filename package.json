@@ -1,0 +1,30 @@
+{
+  "name": "code-design-furniture",
+  "version": "1.0.0",
+  "description": "**Обратите внимание, что папка с вашими исходными файлами — `source/`.**",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Honorashka/code-design-furniture.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Honorashka/code-design-furniture/issues"
+  },
+  "homepage": "https://github.com/Honorashka/code-design-furniture#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify-es": "^2.0.0",
+    "jquery": "^3.6.0"
+  }
+}
