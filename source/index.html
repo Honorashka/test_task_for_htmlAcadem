@@ -72,9 +72,334 @@
 
   <main class="page-main">
     <section class="action">
-      <h1></h1>
+      <div class="action__wrapper">
+        <h2 class="page-main__title action_tite">Пассивный доход до 20% годовых на инвестициях в недвижимость.</h2>
+      </div>
+    </section>
+    <section class="results">
+      <div>
+        <h1 class="page-main__title results__title">38 469 800 Р</h1>
+        <p class="page-main__text results__text">Заработали наши инвесторы на рынке недвижимости</p>
+      </div>
+      <div class="action__statistics statistics">
+        <p class="statistics__info">Итоги недели 24.05.21 - 30.05.21:</p>
+        <div class="statistics__list-wrapper">
+          <ul class="statistics__list">
+            <li class="statistics__item">
+              <h3 class="statistics__title">1М</h3>
+              <div class="statistics__text-wrapper">
+                <p class="statistics__text">Выплачено инвесторам</p>
+                <svg></svg>
+              </div>
+            </li>
+            <li class="statistics__item">
+              <h3 class="statistics__title">56,7К</h3>
+              <div class="statistics__text-wrapper">
+                <p class="statistics__text">Выплачено инвесторам</p>
+                <svg></svg>
+              </div>
+            </li>
+            <li class="statistics__item">
+              <h3 class="statistics__title statistics__title--color">289,1М</h3>
+              <div class="statistics__text-wrapper">
+                <p class="statistics__text">Текущий размер портфеля</p>
+                <svg></svg>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="option">
+      <h2 class="page-main__title option__title">Варианты инвестирования</h2>
+      <div class="option__table">
+        <ul class="option__list">
+          <li class="option__item">
+            <p class="option__text">Доверительное Управление (ДУ)</p>
+          </li>
+          <li class="option__item">
+            <p class="option__text">Финансирование конкретной сделки</p>
+          </li>
+        </ul>
+        <select class="option__dpordown dpordown" name="one">
+          <option class="dpordown__item" value="">Условия</option>
+          <option class="dpordown__item" value="1">Преимущества</option>
+          <option class="dpordown__item" value="2">Ограничения</option>
+          <option class="dpordown__item" value="3">Шаблон договора</option>
+        </select>
+        <span сlass="option__add">Как это работает?</span>
+        <p class="option__text">Вы инвестируете деньги, мы вкладываем их в выгодные сделки</p>
+        <div class="conditions">
+          <ul class="conditions__list">
+            <li class="conditions__item">
+              <p class="conditions__name">Доход:</p>
+            </li>
+            <li class="conditions__item">
+              <p class="conditions__name">Вклад:</p>
+            </li>
+          </ul>
+          <table class="conditions__table">
+            <tr class="conditions__row">
+              <td class="conditions__text">
+                <p class="conditions__text-percent">12%</p>
+                годовых
+              </td>
+              <td class="conditions__text">100 тыс - 249 тыс</td>
+            </tr>
+            <tr class="conditions__row">
+              <td class="conditions__text">
+                <p class="conditions__text-percent">14%</p>
+                годовых
+              </td>
+              <td class="conditions__text">250 тыс - 499 тыс</td>
+            </tr>
+            <tr class="conditions__row">
+              <td class="conditions__text">
+                <p class="conditions__text-percent">12%</p>
+                годовых
+              </td>
+              <td class="conditions__text">500 тыс - 1 млн</td>
+            </tr>
+            <tr class="conditions__row">
+              <td class="conditions__text">
+                <p class="conditions__text-percent">18%</p>
+                годовых
+              </td>
+              <td class="conditions__text">от 1 млн</td>
+            </tr>
+          </table>
+          <p class="conditions__add-text">Если срок менее 1 года, то доходность уменьшается на 1%</p>
+        </div>
+        <div>
+          <button class="button conditions__button" type="button">Инвестировать</button>
+          <svg></svg>
+        </div>
+      </div>
+    </section>
+    <section class="calculator">
+      <h2 class="page-main__title calculator__title">Калькулятор дохода в Доверительном Управлении</h2>
+      <div class="calculator__input">
+        <p class="calculator__amount">Сумма сбережений</p>
+        <div class="calculator__input-wrapper">
+          <input type="number" name="input" id="sum">
+          <input type="range" for="sum">
+          <ul class="calculator__range">
+            <li class="calculator__range-item">100 тыс</li>
+            <li class="calculator__range-item">5 млн</li>
+          </ul>
+        </div>
+      </div>
+      <div class="calculator__term">
+        <p class="calculator-term-text">Срок</p>
+        <ul class="calculator-term-list choice-list">
+          <li class="calculator-term-item choice-item">6 мес</li>
+          <li class="calculator-term-item choice-item">12 мес</li>
+        </ul>
+      </div>
+      <div class="calculator__payouts">
+        <p class="calculator-payouts-text">Выплаты</p>
+        <ul class="calculator-payouts-list choice-list">
+          <li class="calculator-payouts-item choice-item">В конце срока</li>
+          <li class="calculator-payouts-item choice-item">Ежемесячно</li>
+        </ul>
+      </div>
+      <div class="calculator-result benefit">
+        <div class="benefit__text-wrapper">
+          <p class="benefit__text">Ежемесячное начисление</p>
+          <h3 class="benefit__title">22 208Р</h3>
+        </div>
+        <table class="benefit__table">
+          <td class="benefit__row">
+            <tr class="benefit__cell-text">Доход</tr>
+            <tr class="benefit__cell-text">Ежегодное начисление</tr>
+          </td>
+          <td class="benefit__row">
+            <tr class="benefit__cell-number">13%</tr>
+            <tr class="benefit__cell-number">316 500 ₽</tr>
+          </td>
+        </table>
+        <div class="calculator-result__link-wrapper">
+          <a class="calculator-result__link" href="#">Инвестировать</a>
+          <a class="calculator-result__link" href="$">Получить консультацию</a>
+        </div>
+      </div>
+    </section>
+    <section class="manual">
+      <h2 class="page-main__title manual__title">Как стать инвестором</h2>
+      <ul class="manual__list">
+        <li class="manual__item">
+          <div class="manual__image">
+            <span class="manual__number-text">1</span>
+            <svg class="manual__icon" width="0" height="0"></svg>
+          </div>
+          <p class="manual__text">Вы оставляте заявку</p>
+        </li>
+        <li class="manual__item">
+          <div class="manual__image">
+            <span class="manual__number-text">2</span>
+            <svg class="manual__icon" width="0" height="0"></svg>
+          </div>
+          <p class="manual__text">Обсуждаем вопросы</p>
+        </li>
+        <li class="manual__item">
+          <div class="manual__image">
+            <span class="manual__number-text">3</span>
+            <svg class="manual__icon" width="0" height="0"></svg>
+          </div>
+          <p class="manual__text">Подписываете документы</p>
+        </li>
+        <li class="manual__item">
+          <div class="manual__image">
+            <span class="manual__number-text">4</span>
+          </div>
+          <p class="manual__text">Инвестируйте и получаете ежемесячный доход</p>
+        </li>
+      </ul>
+      <div class="manual__link-wrapper">
+        <a class="manual__link manual__link--specail" href="#">Оставить заявку</a>
+        <a class="manual__link" href="#">Необходимые документы</a>
+      </div>
+    </section>
+    <section class="reviews">
+      <h2 class="page-main__title">Отзывы инвесторов</h2>
+      <div class="reviews__cards cards-list">
+        <div class="cards-list__item">
+          <ul class="cards-list__info-list">
+            <li class="cards-list__info-item">
+              <picture class="cards-list__picture"></picture>
+              <svg width="0" height="0"></svg>
+              <p class="cards-list__time">5 минут</p>
+            </li>
+            <li class="cards-list__info-item">
+              <p class="cards-list__name">Отзыв нашего инвестора</p>
+            </li>
+          </ul>
+          <ul class="cards-list__info-list">
+            <li class="cards-list__info-item">
+              <picture class="cards-list__picture"></picture>
+              <svg width="0" height="0"></svg>
+              <p class="cards-list__time">1 час 10 мминут</p>
+            </li>
+            <li class="cards-list__info-item">
+              <p class="cards-list__name">Отзыв нашего инвестора</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <a class="reviews__link" href="#">Больше отзывов</a>
+      <div class="reviews__guarantees-wrapper quarantees">
+        <ul class="quarantees__list">
+          <li class="quarantees__item">
+            <h3 class="reviews__title">Гарантии</h3>
+          </li>
+          <li class="quarantees__item">
+            <p class="quarantees__text">Каждая сделка подкреплена залогом в виде ликвидной недвижимости. Ее рыночная
+              стоимость минимум в 2 раза выше суммы инвестиций, что перекрывает риски </p>
+          </li>
+          <li class="quarantees__item">
+            <a class="quarantees__link reviews__link" href="#">Получить консультацию</a>
+          </li>
+        </ul>
+      </div>
     </section>
   </main>
+
+  <footer class="page-footer">
+    <div class="page-footer__logo-wrapper">
+      <picture>
+        <img src="/source/img/" alt="Логотип БРИДЖ" widht="120" height="45">
+      </picture>
+    </div>
+    <div class="page-footer__social-wrapper social">
+      <ul class="social__list">
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <svg class="socail__link-svg socail__link-svg--youtube" width="18" height="13"></svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <svg class="socail__link-svg socail__link-svg--telegram" width="19" height="15"></svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <svg class="socail__link-svg socail__link-svg--instagram" width="17" height="17"></svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <svg class="socail__link-svg socail__link-svg--vk" width="17" height="10"></svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="page-footer__phone-wrapper">
+      <a class="page-footer__phone" href="tel: 8(800)0000000"></a>
+      <p class="page-footer__phone-text">Для звонков по всей Росиии</p>
+    </div>
+    <div class="page-footer__email-wrapper">
+      <a class="page-footer__email" href="mailto:bridgefond@mail.ru">bridgefond@mail.ru</a>
+    </div>
+    <div class="page-footer__info-list-wrapper"></div>
+    <ul class="page-footer__info-list">
+      <li class="page-footer__info-item">
+        <p class="page-footer__info-text page-footer__info-text--actual">Заемщикам</p>
+      </li>
+      <li class="page-footer__info-item">
+        <p class="page-footer__info-text">Рефинансирование</p>
+      </li>
+      <li class="page-footer__info-item">
+        <p class="page-footer__info-text">Займы под залог недвижимости</p>
+      </li>
+      <li class="page-footer__info-item">
+        <p class="page-footer__info-text">Срочный выкуп недвижимости</p>
+      </li>
+    </ul>
+    <ul class="page-footer__info-list">
+      <li class="page-footer__info-item">
+        <p class="page-footer__info-text page-footer__info-text--actual">Бизнес</p>
+      </li>
+      <li class="page-footer__info-item">
+        <p class="page-footer__info-text">Финансирование бизнеса</p>
+      </li>
+      <li class="page-footer__info-item">
+        <p class="page-footer__info-text">Инвестиции в бизнес</p>
+      </li>
+    </ul>
+    </div>
+    <div class="page-footer__basic basic-list">
+      <ul class="basic-list__list">
+        <li class="basic-list__item">
+          <p class="basic-list__text">Реферальная программа</p>
+        </li>
+        <li class="basic-list__item">
+          <p class="basic-list__text">о нас</p>
+        </li>
+        <li class="basic-list__item">
+          <p class="basic-list__text">документы</p>
+        </li>
+        <li class="basic-list__item">
+          <p class="basic-list__text">Блог</p>
+        </li>
+      </ul>
+    </div>
+    <section class="page-footer__feedback feedback">
+      <form class="feedback__form" action="https://echo.htmlacademy.ru" id="feedback-form-id" method="POST">
+        <p>
+          <input class="feedback__input" type="text" id="feedback-name" name="feedback-name" placeholder="Ваше имя" required>
+        </p>
+        <p>
+          <input class="feedback__input" type="tel" id="feedback-tel" name="feedback-tel" placeholder="Ваш номер телефона" required>
+        </p>
+      </form>
+      <div class="feedback_button--wrapper">
+        <button class="feedback_button button" form="feedback-form-id" type="submit">Оставить заявку</button>
+      </div>
+    </section>
+    <p class="page-footer__cookies">Мы используем Cookies для сбора обезличенных данных. Они полезны для статистики, анализа трафика и настройки подходящей рекламы. Оставаясь на сайте, вы соглашаетесь на сбор таких данных.</p>
+
+  </footer>
 
 
   <script src="js/main.min.js"></script>
